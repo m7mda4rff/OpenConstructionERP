@@ -1,0 +1,5 @@
+[build]
+buildCommand = "pip install -e .[server]"
+
+[deploy]
+startCommand = "openestimate serve --host 0.0.0.0 --port $PORT --quiet"
